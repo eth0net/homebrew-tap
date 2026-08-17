@@ -1,25 +1,25 @@
 class Gdck < Formula
   desc "A fast GDScript formatter and linter"
   homepage "https://github.com/eth0net/gdck"
-  version "0.5.1"
+  version "0.5.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eth0net/gdck/releases/download/v0.5.1/gdck-aarch64-apple-darwin.tar.xz"
-      sha256 "d6a44d259e99159e69f55489f7cf2821eb768e760f80bb3671d05f2d9a6d23cb"
+      url "https://github.com/eth0net/gdck/releases/download/v0.5.2/gdck-aarch64-apple-darwin.tar.xz"
+      sha256 "c988aea93d9a78f13257f6dc11334b13e610f26aa0e8f527854dc7b99ab3856e"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eth0net/gdck/releases/download/v0.5.1/gdck-x86_64-apple-darwin.tar.xz"
-      sha256 "2d5f240c76f2916dc690647825c1427ddde4cd106986588ff6e866320026f195"
+      url "https://github.com/eth0net/gdck/releases/download/v0.5.2/gdck-x86_64-apple-darwin.tar.xz"
+      sha256 "51eecf7df841052a7bf0172f6d433cce70f2c1489fa6791c8b42bd6e7f261adc"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eth0net/gdck/releases/download/v0.5.1/gdck-aarch64-unknown-linux-musl.tar.xz"
-      sha256 "fce6261d705868109b5da981d2ef5af0f753a981a165e38f5f087721d66ea845"
+      url "https://github.com/eth0net/gdck/releases/download/v0.5.2/gdck-aarch64-unknown-linux-musl.tar.xz"
+      sha256 "a290d4a2450b1e40add208a1321c61b3a99be1190c16f65a4751414c431b5f1d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eth0net/gdck/releases/download/v0.5.1/gdck-x86_64-unknown-linux-musl.tar.xz"
-      sha256 "ac046b6b87604a21b72205e18a0e9abe994241fc3c4dfd2ea666b006276fca8d"
+      url "https://github.com/eth0net/gdck/releases/download/v0.5.2/gdck-x86_64-unknown-linux-musl.tar.xz"
+      sha256 "aa164958c3cee51d298fbfc7ec0ce9fc95982494ec62b59c10b803fcc003412f"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
